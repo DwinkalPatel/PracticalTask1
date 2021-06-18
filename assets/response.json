@@ -1,0 +1,121 @@
+ {
+  "title": "Personal Information Survey",
+  "welcome_screen": {
+    "title": "Welcome to personal information  survey. Let's Begin!!",
+    "description": "We are collecting information of users visiting our center"
+  },
+  "thankyou_screens": {
+    "title": "Thank you for your feedback, we really appreciate your efforts for filling this response."
+  },
+  "fields": [
+    {
+      "id": "a7PPrsreuktH",
+      "title": "Enter your name",
+      "validations": {
+        "required": true
+      },
+      "type": "short_text"
+    },
+    {
+      "id": "a7PPrsreuH",
+      "title": "Enter your name",
+      "validations": {
+        "required": true
+      },
+      "type": "short_text"
+    },
+    {
+      "id": "Z2sakg81mydT",
+      "title": "Enter your gender",
+      "properties": {
+        "alphabetical_order": false,
+        "choices": [
+          {
+            "label": "Male"
+          },
+          {
+            "label": "Female"
+          },
+          {
+            "label": "Rather not say"
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "dropdown"
+    },
+    {
+      "id": "peP1NwbWV5oC",
+      "title": "Enter your age",
+      "validations": {
+        "required": true
+      },
+      "type": "number"
+    },
+    {
+      "id": "dTYFCBZNq3Ye",
+      "title": "Enter your email address",
+      "validations": {
+        "required": true
+      },
+      "type": "email"
+    },
+    {
+      "id": "dTYFCBZNqe",
+      "title": "Enter your second email address",
+      "validations": {
+        "required": true
+      },
+      "type": "email"
+    },
+    {
+      "id": "tNU4RLSOes46",
+      "title": "Enter phone number (Optional)",
+      "validations": {
+        "required": false
+      },
+      "type": "phone_number"
+    },
+    {
+      "id": "UVuD3M9gjcg5",
+      "title": "How was your experience at our gaming center",
+      "properties": {
+        "steps": 7
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "rating"
+    },
+    {
+      "id": "YqoIovP8Xj3H",
+      "title": "Enter date of visit",
+      "properties": {
+        "structure": "MMDDYYYY"
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "date"
+    },
+    {
+      "id": "fg0YM1yIolWp",
+      "title": "Would you consider exploring our center again",
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "fg0YMIolWp",
+      "title": "Would you consider exploring our center again",
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    }
+  ]
+}
+
